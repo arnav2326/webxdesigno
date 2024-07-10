@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat;
+}
+body {
+  height: 100vh;
+  font-size: 120%;
+  display: flex;
+  background-image: url(Images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+.main{
+  height: auto;
+  width: 350px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 0px #000000;
+  padding-bottom: 45px;
+}
+.main_login{
+  height: auto;
+  width: 350px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 0px #000000;
+  padding-bottom: 45px;
+}
+.header{
+  margin-top: 45px;
+  font-size: 18px;
+}
+.header h2{
+  text-align: center;
+}
+.header p{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.input-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-group input{
+  padding: 12px ;
+  padding-right: 30%;
+  border: none;
+  background: #dadada;
+  margin-top: 22px;
+  border-radius: 5px;
+}
+.input-group .btn{
+  background: #2c7bfe;
+  margin-top: 22px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 12px 29%;
+  color: #ffffff; 
+  transition: all 1.5ms ease;
+}
+.input-group .btn:hover{
+  transform: scale(0.95);
+}
+
+.input-group .btn_login{
+  background: #2c7bfe;
+  margin-top: 22px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 12px 32%;
+  color: #ffffff; 
+  transition: all 1.5ms ease;
+}
+.input-group .btn_login:hover{
+  transform: scale(0.95);
+}
+
+::placeholder{
+  font-size: 14px;
+}
+.member p{
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+.member a{
+  text-decoration: none;
+  color: #034bbe;
+}
+.member{
+  margin-bottom: 15px;
+}
+.google_login{
+  margin-top: 15px;
+  display: flex;
+  background: rgb(235, 235, 235);
+  border-radius: 3px;
+  color: #000;
+  padding: 3px 0;
+  margin: auto;
+  width: 270px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.google_login img{
+  width: 40px;
+}
+.google_login p{
+  font-size: 13px;
+}
+.google_login:hover{
+  background: rgb(180, 180, 180);
+}
+.error p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  font-size: 12px;
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 5px;
+  /* background: red; */
+  border: 1px solid red;
+}
